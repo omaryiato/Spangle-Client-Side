@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spangle store is an online store specialized in selling the best women's
+     silver products, which are made with distinctive details and high quality to offer." />
+    <title>Products Details Page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap link -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- bootstrap link -->
+
+    <!-- icons -->
+    <link rel="icon" href="pic/WhatsApp Image 2023-03-20 at 23.23.42.jpg">
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700&display=swap">
+
+    <!-- icons -->
+
+    <!-- swiper-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- swiper-->
+
+
+</head>
+
+<body>
+
+
+
+    <!-- Script link-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+
+    <!-- Script link-->
+
+    <!-- navbar top -->
+
+    <div class="container">
+        <div class="navbar-top">
+            <div class="social-link">
+                <i class="fa fa-search"></i>
+                <a href="Login.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+
+            <div class="logo">
+                <a href="index.html"><img src="pic/2e93e0b3-d6bb-45c9-b8ea-8197068740cf.jpeg" alt=""></a>
+
+            </div>
+
+            <div class="social-link">
+                <a href="WishList.html"><i class="fa-regular fa-heart"></i></a>
+                <a href="Shopping-cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    <span class="notify">3</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar top End -->
+
+    <!-- main content Start -->
+
+    <div class="main-content">
+        <nav class="navbar navbar-expand-md" id="navbar-color">
+            <div class="container">
+
+                <!-- Toggler/collapsibe Button -->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span><i style="color:black" class="fa-solid fa-bars"></i></span>
+                </button>
+
+                <!-- Navbar links -->
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Gifts.html">Gifts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Necklaces.html">Necklaces</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Bracelets.html">Bracelets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Rings.html">Rings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Earrings.html">Earrings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Anklets.html">Anklets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- main content End -->
+
+    <script>
+
+        var MainImg = document.getElementById('MainImg');
+        var smallImg = document.getElementsByClassName('small-img');
+
+        smallImg[0].onclick = function () {
+            MainImg.src = smallImg[0];
+        }
+
+        smallImg[1].onclick = function () {
+            MainImg.src = smallImg[2];
+        }
+
+        smallImg[2].onclick = function () {
+            MainImg.src = smallImg[2];
+        }
+
+        smallImg[3].onclick = function () {
+            MainImg.src = smallImg[3];
+        }
+    </script>
+
+    <section class="container  sproduct my-5 pt-5">
+        <div class="title">
+            <small><a href="index.html">Home</a> / <a href="Anklets.html">Anklets</a> / Oval Light Tassel
+                Anklet</small>
+        </div>
+        <div class="row mt-5">
+
+            <div class="col-lg-5 col-md-12 col-12">
+
+                <img class="img-fluid w-100 mb-3 " src="pic/6a1dd1fc-4faf-4e62-a335-5d9e31c7aa24.jpg" alt=""
+                    id="MainImg">
+
+                <div class="small-img-group">
+
+                    <div class="small-img-col">
+                        <img src="pic/26237435.jpg" alt="" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="pic/54561223.jpg" alt="" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="pic/74357302.jpg" alt="" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="pic/56342371.jpg" alt="" width="100%" class="small-img">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-12  ">
+                <h2 class="py-4 ">Oval Light Tassel Anklet.</h2>
+                <h3>25.00 JD</h3>
+                <h4 class="mt-5 mb-5">Product Details</h4>
+                <p>SPANGLE Genuine 925 Sterling Silver Oval Light Tassel Anklet for Women Fashion Bracelet Foot Chain
+                    Fine Jewelry.</p>
+                <p>Material: Sterling Silver 925.</p>
+                <p>Metal Color: Silver.</p>
+                <p>Length(cm): 27cm Adjustable.</p>
+
+
+                <button class="buy-btn"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                <button class="like-btn"><i class="fa-solid fa-heart"></i> Add To WishList</button>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--  Start Related Products  -->
+
+
+    <section class="my-5 pb-5" id="Items">
+
+        <div class="container text-center mt-5 py-5">
+
+            <h3 style="color: black; font-weight: 600;">Related Products</h3>
+
+            <hr class="mx-auto">
+        </div>
+
+        <div class="row mx-auto ">
+
+            <div class="item text-center ">
+                <a href="">
+                    <img class="img-fluid mb-3" src="pic/4796.png" alt="">
+                    <h3 class="p-name">Gifts</h3>
+                </a>
+            </div>
+
+            <div class="item text-center ">
+                <a href="">
+                    <img class="img-fluid mb-3" src="pic/f8869d5a-33cc-46df-a837-0ffd9e13dc5d.jpg" alt="">
+                    <h3 class="p-name">Necklaces</h3>
+
+                </a>
+
+
+            </div>
+
+            <div class="item text-center ">
+                <a href="">
+                    <img class="img-fluid mb-3" src="pic/WhatsApp Image 2022-12-17 at 15.53.38.jpg" alt="">
+                    <h3 class="p-name">Bracelets</h3>
+
+                </a>
+
+
+            </div>
+
+            <div class="item text-center ">
+                <a href="">
+                    <img class="img-fluid mb-3" src="pic/WhatsApp Image 2022-12-17 at 16.36.34.jpg" alt="">
+                    <h3 class="p-name">Rings</h3>
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!--  End Related Products  -->
+
+    <!-- Start Footer -->
+
+    <footer id="footer">
+
+        <div class="col">
+            <h2>Spangle Silver</h2>
+            <p><span><b><em>Spangle store</em></b></span> is an online store specialized in selling
+                the bestwomen's <br> silver products, which are made with distinctive details
+                and high quality to offer you the best daily look.
+            </p>
+        </div>
+
+        <div class="col">
+
+            <ul>
+                <li><a href="+962798323440"><i class="fa fa-phone"> </i></a></li>
+                <li><a href="https://wa.me/962798323440"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="https://web.facebook.com/spanglesilver"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/spangle_silver/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="container">
+
+
+
+            <div class="column">
+                <h2>Quick Link:</h2>
+
+                <ul>
+                    <li><a href="">Refund Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Shipping & Delivery Policy</a></li>
+                </ul>
+
+            </div>
+
+            <div class="column">
+                <h2>Our Partners:</h2>
+                <img src="pic/aramex-ar.png" alt="">
+                <img src="pic/cashondelivery.png" alt="">
+                <img src="pic/banktransfer.png" alt="">
+
+            </div>
+
+
+
+
+            <div class="clearfix"></div>
+
+
+
+        </div>
+
+        <div class="copyright">
+            &copy; All rights reserved,2023 Spangle Silver Store copy rights.
+        </div>
+
+
+    </footer>
+
+    <!-- End Footer-->
+
+
+
+
+</body>
+
+</html>

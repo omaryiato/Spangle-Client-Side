@@ -1,0 +1,1228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* navbar top */
+
+.navbar-top {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.social-link i {
+    margin-left: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.social-link a {
+    color: black;
+}
+
+.social-link a:hover {
+    color: gray;
+
+}
+
+@media screen and (max-width:420px) {
+    .social-link i {
+        font-size: 15px;
+    }
+}
+
+.logo a img {
+    margin-left: 10px;
+    width: 180px;
+    height: 50px;
+}
+
+@media screen and (max-width:420px) {
+    .logo a img {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+/* navbar top */
+
+
+/******************  noty fay    ***************************/
+
+
+.social-link {
+    margin-right: 2rem;
+    position: relative;
+}
+
+.social-link a span:first-child {
+    font-size: 1.3rem;
+}
+
+.social-link a span:last-child {
+    position: absolute;
+    background: rgb(2, 162, 248);
+    height: 16px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: -5px;
+    top: -5px;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+/******************  noty fay    ***************************/
+
+/* main content */
+
+.main-content {
+    width: 100%;
+}
+
+
+
+/* navbar */
+
+.navbar-toggler span i {
+    color: white;
+}
+
+#navbar-color {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.nav-link {
+    margin-left: 30px;
+
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
+
+}
+
+/* navbar */
+
+/* content */
+
+.content img {
+    padding: 0 50px;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:420px) {
+    .content img {
+        padding: 0;
+    }
+}
+
+
+
+
+#btn1 button {
+    width: 150px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn1 button:hover {
+    background-color: green;
+}
+
+@media screen and (max-width:420px) {
+    .content h1 {
+        font-size: 30px;
+    }
+}
+
+/* content */
+
+/* main content */
+
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    margin: 50px 0;
+    width: 100%;
+}
+
+
+
+
+/*********************  Menu Section Start  **********************************/
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.product {
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.3s;
+}
+
+.product img {
+    height: 200px;
+    width: 200px;
+    transition: all 0.3s;
+}
+
+.product:hover {
+    opacity: 0.7;
+
+}
+
+#featured h1 {
+    color: black;
+    font-weight: 700;
+}
+
+#featured .row .product a {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width:420px) {
+    .product img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #featured h1 {
+        font-size: 35px;
+    }
+
+    #featured h3 {
+        font-size: 20px;
+
+    }
+
+    .product {
+        height: 10rem;
+        margin-top: 10px;
+        width: calc(75% / 3);
+
+    }
+}
+
+
+
+
+
+/*********************** Menu Section End  *******************************************/
+
+
+/**********************  shopping cart  Empty  ****************************/
+
+.container .shopping {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 1px solid #9d9fa5;
+}
+
+.shopping .bag {
+    margin-top: 25px;
+    color: #8b8b8b;
+    font-size: 100px;
+    opacity: 0.5;
+}
+
+.shopping .empty {
+    color: #8b8b8b;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+
+.shopping .browse {
+    padding-bottom: 50px;
+
+}
+
+.shopping .browse button {
+    margin-top: 100px;
+    cursor: pointer;
+    width: 400px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.shopping .browse button:hover {
+
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+
+}
+
+
+
+@media screen and (max-width:420px) {
+
+    .shopping .browse button {
+        width: 200px;
+    }
+
+    .container .shopping {
+
+        height: 50vh;
+    }
+
+}
+
+
+/************************************  Our Produts Start  **************************/
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.item {
+    margin-left: 10px;
+
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.3s;
+    width: calc(85% / 4);
+}
+
+.item img {
+    height: 300px;
+    width: 200px;
+    transition: all 0.3s;
+}
+
+.item .p-name {
+    padding-top: 25px;
+}
+
+.item .p-price {
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.item:hover {
+    opacity: 0.7;
+
+}
+
+#Items h1 {
+    color: black;
+    font-weight: 700;
+}
+
+#Items .row .item a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .item img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #Items h1 {
+        font-size: 35px;
+    }
+
+    #Items h3 {
+        font-size: 20px;
+    }
+
+    .item {
+
+        width: calc(75% / 3);
+
+    }
+}
+
+@media screen and (max-width:420px) {
+    .item img {
+        height: 150px;
+        width: 150px;
+    }
+
+    #Items h1 {
+        font-size: 35px;
+    }
+
+    #Items h3 {
+        font-size: 20px;
+    }
+
+    .item {
+
+        width: calc(75% / 2);
+
+    }
+}
+
+
+
+
+
+/************************************  Our Produts Ends  **************************/
+
+
+
+/*  Our Produt */
+
+/*  page header  */
+
+
+main {
+
+    margin-top: 30px;
+
+}
+
+.page-header {
+    position: relative;
+
+    padding: 1.3rem 1rem;
+    height: 200px;
+
+    background: #E9edf2;
+    border-bottom: 1px solid #dee2e8;
+    margin-bottom: 30px;
+}
+
+.page-header i {
+    font-size: 40px;
+    position: absolute;
+    top: 12%;
+    color: #01132f;
+}
+
+.page-header h1,
+.page-header small {
+    color: #74767d;
+    padding-left: 50px;
+}
+
+@media screen and (max-width:420px) {
+
+    .page-header h1,
+    .page-header small {
+
+
+        padding-left: 0;
+    }
+
+    .page-header h1 {
+        font-size: 25px;
+    }
+}
+
+.page-header small a {
+    color: #01132f;
+}
+
+.cart-page {
+    margin: 80px;
+}
+
+.table {
+    margin-top: 25px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    background: #74767d;
+    font-weight: normal;
+}
+
+.table td {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.table .count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+}
+
+
+
+.table td input {
+
+    font-size: 20px;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+.table td input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.table .count button {
+    color: #74767d;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.table .count #decrement {
+    padding: 3px 1px 3px 5px;
+    border-radius: 45px 0 0 45px;
+}
+
+.table .count #increment {
+    padding: 3px 5px 3px 1px;
+    border-radius: 0 45px 45px 0;
+}
+
+.table td a i {
+    color: #74767d;
+    font-size: 20px;
+
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.profile-img {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin: 5px auto .5rem auto;
+
+}
+
+.profile-img img {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin: 0 auto .5rem auto;
+    border: 3px solid #899DC1;
+    border-radius: 50%;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+
+}
+
+.total-price table {
+    border-top: 3px solid #74767d;
+    width: 100%;
+    max-width: 400px;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+thead:last-child {
+    text-align: center;
+}
+
+/************* Responsive Table *************/
+
+@media screen and (max-width:420px) {
+    .table thead {
+        display: none;
+    }
+
+    .table,
+    .table tbody,
+    .table tr,
+    .table td {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .page-header i {
+        font-size: 20px;
+        position: absolute;
+        top: 12%;
+    }
+
+    .page-header h1 {
+        margin-left: 25px;
+    }
+
+
+}
+
+
+
+
+
+/*  page  header  */
+
+/***************  check out **************/
+
+.all-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.more {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.more .show-more {
+    width: 100%;
+    color: white;
+    background-color: black;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 6px;
+    border: none;
+
+}
+
+.more .show-more:hover {
+
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+}
+
+.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+.check {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check .go-to-checkout {
+    color: white;
+    background-color: rgb(82, 81, 81);
+    width: 100%;
+    max-width: 200px;
+
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    border-radius: 6px;
+
+}
+
+.check .go-to-checkout:hover {
+    color: rgb(82, 81, 81);
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid rgb(82, 81, 81);
+}
+
+@media screen and (max-width:420px) {
+    .more .show-more {
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .check .go-to-checkout {
+        width: 200px;
+        font-size: 15px;
+    }
+
+}
+
+
+/***************  login page ******************/
+
+.containeres {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    max-width: 430px;
+    padding: 30px;
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #cacaca;
+
+}
+
+header {
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.form .field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.field input,
+.field button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.field input {
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #cacaca;
+}
+
+.field input:focus {
+    border-bottom-width: 2px;
+}
+
+.eye-icon {
+    position: absolute;
+    font-size: 18px;
+    color: #8b8b8b;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 5px;
+}
+
+.field button {
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.field button:hover {
+    background-color: white;
+    color: black;
+}
+
+.form-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link span,
+.form-link a {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form a {
+    color: #0171d3;
+    text-decoration: none;
+}
+
+.form-content a:hover {
+
+    text-decoration: underline;
+}
+
+.form .media-options a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+
+
+.line::before {
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: black;
+    padding: 0 15px;
+}
+
+hr {
+    width: 100px;
+    height: 5px;
+    background-color: #74767d;
+}
+
+
+
+@media screen and (max-width:420px) {
+    hr {
+        width: 30px;
+    }
+
+
+
+}
+
+.media-options a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #4267b2;
+}
+
+.media-options .facebook-icon {
+    height: 28px;
+    width: 28px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.facebook-icon,
+.media-options .google-img {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.media-options .google-img {
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    object-fit: cover;
+}
+
+.media-options .google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4267b2;
+    background-color: #fff;
+    border: 1px solid #cacaca;
+
+}
+
+
+.media-options .google span {
+    font-weight: 500;
+    opacity: 0.6;
+    color: black;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+/***************  login page ******************/
+
+/******************  checkout  ****************/
+
+.totals-price {
+    display: flex;
+    justify-content: center;
+
+}
+
+.totals-price table {
+    border-top: 3px solid #74767d;
+    width: 100%;
+    max-width: 400px;
+}
+
+.lines {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+/*******************   product  Details  *******************/
+
+.container .title small {
+    padding-left: 15px;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.container .title small a {
+    color: #74767d;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 18px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+
+}
+
+.buy-btn,
+.like-btn {
+    display: block;
+    color: white;
+    background-color: rgb(82, 81, 81);
+    width: 100%;
+    max-width: 200px;
+
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 17px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    border-radius: 6px;
+}
+
+.like-btn:hover {
+    color: rgb(82, 81, 81);
+    background-color: white;
+    border: 1px solid rgb(82, 81, 81);
+}
+
+.buy-btn:hover {
+    color: rgb(82, 81, 81);
+    background-color: white;
+    border: 1px solid rgb(82, 81, 81);
+}
+
+#MainImg {
+    border: 1px solid rgb(82, 81, 81);
+}
+
+
+
+@media screen and (max-width:420px) {
+    #MainImg {
+        border: 1px solid rgb(82, 81, 81);
+    }
+
+
+
+    .buy-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .like-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+}
+
+
+
+/* Start Footer */
+
+#footer {
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    padding: 40px 0;
+    overflow: hidden;
+    height: auto;
+}
+
+#footer .container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer .container .column {
+
+    margin-top: 30px;
+    padding-left: 150px;
+
+    align-items: center;
+    width: 50%;
+
+    float: left;
+}
+
+#footer .col {
+
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#footer .col ul li {
+
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+#footer .col ul {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#footer .col ul li a {
+
+    color: white;
+    font-size: 40px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+
+#footer .col ul li a:hover {
+    color: gray;
+
+    padding-bottom: 8px;
+}
+
+#footer .col ul li a i {
+    margin-right: 10px;
+}
+
+
+#footer .container .column .h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#footer .container .column p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+#footer .container .column p span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#footer .container .column ul li {
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+
+#footer .container .column ul li a {
+    color: white;
+    font-size: 15px;
+    border-bottom: 0.1rem solid gray;
+    padding-bottom: 5px;
+}
+
+#footer .container .column ul li a:hover {
+    color: gray;
+
+    padding-bottom: 8px;
+}
+
+#footer .container .column ul li a i {
+    margin-right: 10px;
+}
+
+#footer .container .column img {
+    align-items: center;
+
+    display: block;
+    margin-top: 25px;
+
+}
+
+
+#footer .copyright {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+    color: gray;
+}
+
+#footer .copyright {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+    color: gray;
+}
+
+@media screen and (max-width:420px) {
+
+    #footer .container {
+        display: block;
+    }
+
+    #footer .container .col .h2 {
+        font-size: 15px;
+    }
+
+    #footer .container .col {
+        margin-top: 15px;
+    }
+
+    #footer .container .column {
+        padding-left: 40px;
+    }
+
+    #footer .copyright {
+
+        font-size: 12px;
+
+    }
+
+
+
+}
+
+
+
+/* End Footer */
